@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change color</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="conrainer">
+    <header>
+        <div class="logo"><img src="./images/logo.png" alt=""></div>
+        <ul class="nav">
+            <li><a href="#">home</a></li>
+            <li><a href="#">product </a></li>
+            <li><a href="#">use</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">contact</a> </li>
+        </ul>
+    </header>
+    <div class="section">
+        <div class="text">
+            <h2>MY MAIN HEADER WELXON</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, ex! Eos inventore nemo </p>
+            <button class="all_product">all product</button>
+        </div>
+        <div class="big_img">
+            <img src="./images/1.png" alt="">
+        </div>
+    </div>
+    <div class="all_images">
+        <div><img onclick="change_img(this.src) ; changcolor('#000')" src="./images/0.png" alt=""></div>
+        <div><img onclick="change_img(this.src) ; changcolor('#247ec8')" src="./images/1.png" alt=""></div>
+        <div><img onclick="change_img(this.src) ; changcolor('#1e1e1e')" src="./images/2.png" alt=""></div>   
+        <div><img onclick="change_img(this.src) ; changcolor('#c82525')" src="./images/3.png" alt=""></div>
+        <div><img onclick="change_img(this.src) ; changcolor('#c79b53')" src="./images/4.png" alt=""></div>
+        <!-- <div><img src="./images/4.png" alt=""></div> -->
+    </div>
+    <footer>
+        <div> made by amalhalim </div>
+    </footer>
+</div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

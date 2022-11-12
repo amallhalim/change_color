@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change color</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- ////// start the main header -->
+        <header>
+            <a href="#"><img src="./images/logo.png" alt="" class="logo"></a>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">product</a></li>
+                <li><a href="#">use</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </header>
+        <!-- ////// end the main header -->
+        <!-- ////// start the content -->
+<div class="content">
+    <div class="text">
+        <h2>my main header welxon</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        Illo, ex! Eos inventore nemo </p>
+        <a href="#">all product</a>
+    </div>
+    <div class="image">
+        <img  class="main_image" src="./images/portfolio-1.jpg" alt="">
+    </div>
+</div>
+<!-- ////// end the content-->
+<!-- ////// start the icons-->
+<div class="icons">
+    <img onclick="change_images(this.src); change_color('red')" src="./images/portfolio-1.jpg" alt="">
+    <img onclick="change_images(this.src); change_color('yellow')" src="./images/services.jpg" alt="">
+    <img onclick="change_images(this.src); change_color('blue')" src="./images/landing.jpg" alt="">
+    <img onclick="change_images(this.src); change_color('black')" src="./images/about.jpg" alt="">
+</div>
+<!-- ////// end the icons-->
+</div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
